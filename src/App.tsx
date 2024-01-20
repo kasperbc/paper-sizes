@@ -109,6 +109,9 @@ function App() {
         <Typography className="Output" id="output">
           {output}
         </Typography>
+        <div className="Footer">
+          <a href="https://github.com/kasperbc/paper-sizes" target="_blank">© Kasper Björkgren 2024</a>
+        </div>
       </CssVarsProvider>
     </div>
   );
